@@ -8,7 +8,6 @@
     position: fixed;
     z-index: 10;
     justify-content: space-between;
-    font-family: 'Pretendard-Regular';
 }
 
 .header_list {
@@ -34,11 +33,11 @@
 }
 
 .svg {
-    width: 14px;
-    height: 12px;
+    width: 18px;
+    height: 15px;
 }
 
-.search_box {
+.searchContainer {
     display: flex;
     align-items: center;
     list-style: none;
@@ -61,6 +60,10 @@
     border: 1px solid #ccc;
     outline: none;
     resize: none;
+}
+
+.search_input::placeholder {
+    font-size: 12px;
 }
 
 .search_button {

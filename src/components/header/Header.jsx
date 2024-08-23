@@ -32,7 +32,7 @@ const Header = () => {
           <NavItem href="#" src={Group} alt="group_svg" label="동아리" />
         </ul>
       </nav>
-      <div className={style.search_box}>
+      <div className={style.searchContainer}>
         <form action="#" className={style.search_form}>
           <input
             type="text"
